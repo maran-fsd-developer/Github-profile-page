@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.nav-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 13px !important;
+  font-style: bold;
+  font-size-adjust: 1;
+}
+
+.navbar .nav-icon {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(47, 61, 70);
+  padding: 10px;
+  width: 200px;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+}
+.navbar .nav-icon img {
+  height: 30px;
+}
+.navbar .nav-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-decoration: none;
+}
+.nav-icon {
+  margin-left: 10px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: rgb(202, 210, 197) !important;
+}
+.container {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  border: 1px;
+}
+
+.container1 {
+  align-self: flex-start;
+  margin-left: 10% !important;
+  height: 280px !important;
+  width: 20% !important;
+  margin-top: 4% !important;
+  border-radius: 10px !important;
+  background-color: rgb(53, 53, 53) !important;
+}
+
+.container2 {
+  height: 20px !important;
+  margin-top: -10% !important;
+  margin-left: 160% !important;
+  border-radius: 5px !important;
+  background-color: rgb(53, 53, 53) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.container3 {
+  height: 80px !important;
+  width: 140px !important;
+  margin-top: 15% !important;
+  margin-left: 140% !important;
+  border-radius: 10px !important;
+  background-color: rgb(53, 53, 53) !important;
+  gap: 100px !important;
+}
+
+.container4 {
+  height: 80px !important;
+  width: 140px !important;
+  margin-top: -10% !important;
+  margin-left: 120% !important;
+  border-radius: 10px !important;
+  background-color: rgb(53, 53, 53) !important;
+}
+
+.container5 {
+  height: 80px !important;
+  width: 140px !important;
+  margin-top: -10% !important;
+  margin-left: 120% !important;
+  border-radius: 10px !important;
+  background-color: rgb(53, 53, 53) !important;
+}
+
+.container6 {
+  width: 400% !important;
+  height: 90px !important;
+  margin-top: 120% !important;
+  margin-left: -280% !important;
+  margin-right: 100px !important;
+  border-radius: 10px !important;
+  background-color: rgb(53, 53, 53) !important;
+}
+
+.form-control {
+  background-color: rgb(53, 53, 53) !important;
+  color: rgb(255, 255, 255) !important;
+}
